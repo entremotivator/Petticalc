@@ -4,8 +4,8 @@ import streamlit as st
 default_percentage = 15
 
 # Title and description
-st.title("Gratuity (Tip) Calculator")
-st.write("Enter the cash total and adjust the gratuity percentage as needed.")
+st.title("Pretti Plates Calculator")
+st.write("Easily calculate the gratuity for your meal. Enter the cash total and adjust the gratuity percentage as needed.")
 
 # Input fields for total amount and tip percentage
 cash_total = st.number_input("Cash Total ($):", min_value=0.0, format="%.2f")
